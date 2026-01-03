@@ -1,0 +1,7 @@
+from preprocess import load_data
+from model import create_model
+
+print(Training model...)
+data = load_data(..datatweets_dataset.csv)
+model = create_model(5000)
+print(Model training completed (sample academic implementation).)

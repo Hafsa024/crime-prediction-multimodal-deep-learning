@@ -1,0 +1,5 @@
+tweet_text,crime_type
+"Stolen bike reported near main road","Theft"
+"Online fraud reported through fake calls","Cyber Crime"
+"Physical assault reported last night","Assault"
+"ATM card scam detected","Fraud"

@@ -1,0 +1,16 @@
+import pandas as pd
+import nltk
+from nltk.corpus import stopwords
+
+nltk.download('stopwords')
+
+def preprocess_text(text):
+    stop_words = set(stopwords.words('english'))
+    words = text.lower().split()
+    filtered_words = [w for w in words if w not in stop_words]
+    return " ".join(filtered_words)
+
+def load_data(path):
+    data = pd.read_csv(path)
+    data['clean_text'] = data['tweet_text'].apply(preprocess_text)
+    return data
