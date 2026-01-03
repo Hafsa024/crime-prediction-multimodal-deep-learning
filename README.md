@@ -7,3 +7,8 @@ Tech Stack:
 - NLP
 - Deep Learning (LSTM)
 - Pandas, NumPy
+
+Features:
+- Preprocesses tweet text using NLP techniques
+- Implements LSTM-based neural network for crime classification
+- Sample dataset included for demonstration
